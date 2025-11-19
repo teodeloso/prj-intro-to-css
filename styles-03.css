@@ -1,0 +1,15 @@
+
+.class-1st-el {
+    background-color: black;
+    color: white;
+}
+
+.class-2nd-el {
+    background-color: yellow;
+    color: black;
+}
+
+.class-1st-el,.class-2nd-el {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
