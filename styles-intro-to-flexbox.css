@@ -1,0 +1,40 @@
+/* start base styles */
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container {
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    border: 10px solid blue;
+}
+
+.item {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    padding: 1em;
+    text-align: center;
+    border: 10px solid green;
+    border-radius: 10px;
+}
+/* end base styles */
+
+
+/* start of flexbox tinkering */
+
+.container {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+}
+
