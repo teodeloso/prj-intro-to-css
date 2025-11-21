@@ -1,0 +1,12 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container div {
+    background: lightblue;
+    border: 4px solid blue;
+    height: 80px;
+    flex: 1 1 auto;
+}
+
